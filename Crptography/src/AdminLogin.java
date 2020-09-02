@@ -21,11 +21,11 @@ public class AdminLogin extends HttpServlet {
 		PrintWriter out=response.getWriter();
 	
 		int s=3;
-		String email="manishraj@gmail.com";
-		String password="Manish@29";
+		String email="your Email";
+		String password="your password";
 		System.out.println("Cipher: " + CaesarCipher.encrypt(email, s)); 
 		System.out.println("Cipher: " + CaesarCipher.encrypt(password, s)); 
-		if(email.equals("manishraj@gmail.com")&&password.equals("Manish@29"))
+		if(email.equals("your email")&&password.equals("Your password"))
 		
 		{
 			
